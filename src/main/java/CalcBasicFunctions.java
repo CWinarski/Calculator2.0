@@ -2,11 +2,11 @@ public class CalcBasicFunctions
 {
     public double addTwoNumbers (double numOne, double numTwo)
     {
-       double sum;
+        double sum;
 
-       sum = numOne + numTwo;
+        sum = numOne + numTwo;
 
-       return sum;
+        return sum;
     }
 
     public double subTwoNumbers (double numOne, double numTwo)

@@ -8,13 +8,13 @@ public class CalcBasicFunctionsTest
     @Test
     public void addTwoNumbersTest()
     {
-      CalcBasicFunctions calcTest = new CalcBasicFunctions();
+        CalcBasicFunctions calcTest = new CalcBasicFunctions();
 
-      double expected = 12;
+        double expected = 12;
 
-      double actual = calcTest.addTwoNumbers(6,6);
+        double actual = calcTest.addTwoNumbers(6,6);
 
-      assertEquals("The result should be 12", expected, actual,.05);
+        assertEquals("The result should be 12", expected, actual,.05);
 
 
     }
